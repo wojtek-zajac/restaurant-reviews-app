@@ -82,7 +82,6 @@ fetchRestaurantFromURL = (callback) => {
 fillRestaurantHTML = (restaurant = self.restaurant) => {
   const name = document.getElementById('restaurant-name');
   name.innerHTML = restaurant.name;
-  name.classList.add('name');
 
   const address = document.getElementById('restaurant-address');
   address.innerHTML = restaurant.address;
@@ -157,7 +156,7 @@ createReviewHTML = (review) => {
   const date = document.createElement('p');
   date.innerHTML = review.date;
   reviewHeader.appendChild(date);
-  reviewHeader.classList.add('reviewHeader');
+  reviewHeader.classList.add('review-header');
   li.appendChild(reviewHeader);
 
   const rating = document.createElement('p');
