@@ -15,42 +15,41 @@
 
 <body class="inside">
 
-  <header>
-    <nav>
-      <h1><a href="/">Restaurant Reviews</a></h1>
-    </nav>
-    <ul id="breadcrumb" >
-      <li><a href="/">Home</a></li>
-    </ul>
-  </header>
+    <header class="header-inside">
+      <div class="header">
+        <h1><a href="/">Restaurant Reviews</a></h1>
+      </div>
+      <nav id="breadcrumb">
+        <li><a href="/">Home</a></li>
+      </nav>
+    </header>
 
-  <main id="main-content-inside">
+    <main id="main-content-inside">
+      <div class="container">
+      
+        <section id="restaurant-container">
+          <img id="restaurant-img">
+          <p id="restaurant-cuisine"></p>
+          <h1 id="restaurant-name"></h1>
+          <p id="restaurant-address"></p>
+          <table id="restaurant-hours"></table>
+        </section>
 
-    <section id="restaurant-container">
+        <section id="reviews-container">
+        <ul id="reviews-list"></ul>
+        </section>
 
-      <img id="restaurant-img">
-      <p id="restaurant-cuisine"></p>
-      <h1 id="restaurant-name"></h1>
-     
-      <p id="restaurant-address"></p>
-      <table id="restaurant-hours"></table>
-    </section>
+      </div>
 
-    <section id="reviews-container">
-      <ul id="reviews-list"></ul>
-    </section>
+      <aside id="map-container">
+        <div id="map"></div>
+      </aside>
 
-    <footer id="footer">
+      <footer id="footer">
       Copyright (c) 2018 <a href="/"><strong>Restaurant Reviews</strong></a> All Rights Reserved.
-    </footer>
+      </footer>
 
-  </main>
-
-  <aside>
-    <section id="map-container">
-      <div id="map"></div>
-    </section>
-  </aside>
+    </main>
 
 </body>
 
