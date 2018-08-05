@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
   <title>Restaurant Reviews</title>
@@ -23,10 +23,10 @@
   </header>
 
   <main id="main-content">
-    <section id="map-container">
+    <div id="map-container" class="hero-map">
       <div id="map"></div>
-    </section>
-    <section>
+    </div>
+    <div>
       <div class="filter-options">
         <h2 class="filter-header">Filter Results</h2>
         <select id="neighborhoods-select" name="neighborhoods" onchange="updateRestaurants()">
@@ -37,7 +37,7 @@
         </select>
       </div>
       <ul id="restaurants-list"></ul>
-    </section>
+    </div>
   </main>
   
   <footer id="footer">
