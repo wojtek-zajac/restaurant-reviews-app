@@ -509,6 +509,10 @@ h1 {
 
   #breadcrumb {
     width: 100%;
+    padding-left: 0;
+  }
+
+  #breadcrumb-ul {
     padding-left: 16px;
   }
 
@@ -591,6 +595,10 @@ h1 {
 
   #breadcrumb li {
     font-size: 0.8rem;
+  }
+
+  #breadcrumb-ul {
+    padding-left: 16px;
   }
 
   #main-content-inside {
