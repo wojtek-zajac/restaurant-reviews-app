@@ -22,7 +22,7 @@
       <div class="header">
         <h1><a href="/">Restaurant Reviews</a></h1>
       </div>
-      <nav id="breadcrumb">
+      <nav id="breadcrumb" aria-label="Breadcrumb">
         <ul id="breadcrumb-ul">
         <li><a href="/">Home</a></li>
         </ul>
@@ -35,7 +35,7 @@
       <section id="restaurant-container">
         <img id="restaurant-img">
         <p id="restaurant-cuisine"></p>
-        <h1 id="restaurant-name"></h1>
+        <h2 id="restaurant-name"></h2>
         <p id="restaurant-address"></p>
         <table id="restaurant-hours"></table>
       </section>
@@ -45,7 +45,7 @@
       </section>
 
       <aside id="map-container">
-        <div id="map"></div>
+        <div id="map" role="application" aria-label="Google Map with the Restaurant"></div>
       </aside>
 
       <footer id="footer">
